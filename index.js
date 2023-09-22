@@ -21,6 +21,23 @@
 // pineTree.style.bottom = '400px'
 // document.body.append(pineTree)
 
+// let sky = document.createElement('img')
+// sky.src = 'assets/sky.png'
+// sky.style.position = 'fixed'
+// sky.style.top = '0px', '100%'
+// sky.style.height = '200px'
+// document.doctype.append(sky)
+
+// function newImage2(imageURL, left, top) {
+//     let obj = document.createElement('img')
+//     obj.src = imageURL
+//     obj.style.position = 'fixed'
+//     obj.style.left = left + 'px'
+//     obj.style.bottom = top + 'px'
+//     document.body.append(obj)
+//     }
+//     newImage2('assets/sky.png', 100, 100%,)
+
 function newImage(imageURL, left, bottom) {
 let obj = document.createElement('img')
 obj.src = imageURL
@@ -30,33 +47,68 @@ obj.style.bottom = bottom + 'px'
 document.body.append(obj)
 }
 
-newImage('assets/pine-tree.png', 900, 400)
-newImage('assets/pine-tree.png', 800, 400)
+function Image(imageURL, left, bottom) {
+    let obj = document.createElement('img')
+    obj.src = imageURL
+    obj.style.position = 'fixed'
+    obj.style.left = left + 'px'
+    obj.style.bottom = top + 'px'
+    document.body.append(obj)
+    }
+    
+
+newImage('assets/pine-tree.png', 1000, 525)
+newImage('assets/pine-tree.png', 975, 400)
+newImage('assets/pine-tree.png', 925, 450)
+newImage('assets/pine-tree.png', 790, 475)
+newImage('assets/pine-tree.png', 1200, 400)
+newImage('assets/pine-tree.png', 1025, 375)
 newImage('assets/pine-tree.png', 700, 400)
-newImage('assets/pine-tree.png', 600, 400)
-newImage('assets/pine-tree.png', 500, 400)
-newImage('assets/pine-tree.png', 400, 400)
-newImage('assets/pine-tree.png', 875, 250)
-newImage('assets/pine-tree.png', 775, 350)
-newImage('assets/pine-tree.png', 675, 250)
-newImage('assets/pine-tree.png', 525, 300)
-newImage('assets/pine-tree.png', 475, 325)
-newImage('assets/pine-tree.png', 350, 275)
+newImage('assets/pine-tree.png', 1075, 150)
+newImage('assets/pine-tree.png', 975, 350)
+newImage('assets/pine-tree.png', 960, 250)
+newImage('assets/pine-tree.png', 725, 300)
+newImage('assets/pine-tree.png', 790, 375)
+newImage('assets/pine-tree.png', 1100, 275)
+newImage('assets/pine-tree.png', 1275, 275)
+newImage('assets/pine-tree.png', 1000, 200)
 
+newImage('assets/tree.png', 1000, 75)
+newImage('assets/tree.png', 785, 175)
+newImage('assets/tree.png', 900, 275)
+newImage('assets/tree.png', 775, 50)
+newImage('assets/tree.png', 900, 160)
+newImage('assets/tree.png', 1200, 0)
+newImage('assets/tree.png', 1275, 325)
+newImage('assets/tree.png', 1295, 75)
+newImage('assets/tree.png', 1195, 190)
 
-newImage('assets/green-character.gif', 100, 100)
-newImage('assets/boulder.png', 200, 200)
-newImage('assets/crate.png', 75, 75)
-newImage('assets/pillar.png', 100, 200)
-newImage('assets/rock.png', 500, 400)
-newImage('assets/shield.png', 150, 250)
-newImage('assets/staff.png', 275, 150)
-newImage('assets/tree.png', 100, 250)
-newImage('assets/red-character.gif', 300, 500)
+newImage('assets/green-character.gif', 625, 100)
+newImage('assets/red-character.gif', 575, 100)
+newImage('assets/boulder.png', 550, 0)
 
-// let sky = document.createElement('img')
-// sky.src = 'assets/sky.png'
-// sky.style.position = 'fixed'
-// sky.style.top = '0px', '100%'
-// sky.style.height = '200px'
-// document.doctype.append(sky)
+newImage('assets/pillar.png', 0, 0)
+newImage('assets/pillar.png', 200, 0)
+newImage('assets/well.png', 130, 25)
+newImage('assets/shield.png', 650, 65)
+
+Image('assets/sky.png', 0, 0)
+Image('assets/sky.png', 100, 0)
+Image('assets/sky.png', 200, 0)
+Image('assets/sky.png', 300, 0)
+Image('assets/sky.png', 400, 0)
+Image('assets/sky.png', 500, 0)
+Image('assets/sky.png', 600, 0)
+Image('assets/sky.png', 700, 0)
+Image('assets/sky.png', 800, 0)
+Image('assets/sky.png', 900, 0)
+Image('assets/sky.png', 1000, 0)
+Image('assets/sky.png', 1100, 0)
+Image('assets/sky.png', 1200, 0)
+Image('assets/sky.png', 1300, 0)
+Image('assets/sky.png', 1400, 0)
+Image('assets/sky.png', 1500, 0)
+Image('assets/sky.png', 1600, 0)
+Image('assets/sky.png', 1700, 0)
+Image('assets/sky.png', 1800, 0)
+Image('assets/sky.png', 1900, 0)
